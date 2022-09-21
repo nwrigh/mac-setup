@@ -39,6 +39,7 @@ fi
 # Mackup and dotfile config             #
 #########################################
 
+
 ##############################################
 # Private & Public Key setup via laspass cli #
 ##############################################
@@ -64,6 +65,13 @@ else
     echo "You already have ssh keys"
 fi
 
+
+#########################################
+# Git Setup                             #
+#########################################
+# 
+# git config --global user.name "Your Name"
+# git config --global user.email you@example.com
 
 ##############################################
 # Verify installation somehow?               #
