@@ -4,11 +4,6 @@ tap "homebrew/core"
 
 cask_args appdir: "~/Applications"
 
-# Security
-# Rosetta is needed for LastPas on Silicon chips
-cask "lastpass"
-brew "lastpass-cli"
-
 # Source control
 brew "git"
 
@@ -20,7 +15,6 @@ brew "pyenv"
 # Docker & Containers
 brew "docker" 
 brew "docker-compose"
-# whalebrew "whalebrew/wget"
 
 # Infra
 brew "terraform"
@@ -43,6 +37,8 @@ cask "visual-studio-code"
 cask "iterm2"
 brew "zsh"
 brew "zsh-syntax-highlighting"
+
+brew install --cask umputun/apps/agterm
 
 # For Oh-my-zsh sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
