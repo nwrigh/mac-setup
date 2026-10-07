@@ -52,9 +52,7 @@ cask "google-cloud-sdk"
 # Images
 cask "gimp"
 
-# General
-# ToDo: Add setup for mackup
-brew "mackup"
+brew install --cask mark-text
 
 # Apple Store apps
 # Not working at the moment - I suspect it is to do with payment options for the apple id
