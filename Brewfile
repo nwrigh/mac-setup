@@ -49,4 +49,5 @@ cask "gimp"
 #mas "Lightshot Screenshot", id: 526298438
 
 cask claude-code@latest
+cask wispr-flow
 
