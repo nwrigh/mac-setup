@@ -1,7 +1,3 @@
-tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
-
 cask_args appdir: "~/Applications"
 
 # Source control
@@ -16,9 +12,6 @@ brew "pyenv"
 brew "docker" 
 brew "docker-compose"
 
-# Infra
-brew "terraform"
-
 #  Browsers
 cask "google-chrome"
 cask "opera"
@@ -27,7 +20,7 @@ cask "opera"
 cask "slack"
 cask "zoom"
 cask "google-drive"
-cask "grammarly"
+cask "grammarly-desktop"
 
 # Text Editors & IDEs
 cask "visual-studio-code"
