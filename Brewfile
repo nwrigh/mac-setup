@@ -44,8 +44,6 @@ cask "umputun/apps/agterm"
 # Images
 cask "gimp"
 
-cask "mark-text"
-
 # Apple Store apps
 # Not working at the moment - I suspect it is to do with payment options for the apple id
 #mas "Lightshot Screenshot", id: 526298438
