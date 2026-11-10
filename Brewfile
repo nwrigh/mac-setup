@@ -4,9 +4,9 @@ cask_args appdir: "~/Applications"
 brew "git"
 
 # Programming Languages
-brew "go"
-brew "python"
-brew "pyenv"
+#brew "go"
+#brew "python"
+#brew "pyenv"
 
 # Docker & Containers
 brew "docker" 
@@ -35,7 +35,7 @@ cask "umputun/apps/agterm"
 # For Oh-my-zsh sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # CLIs
-cask "google-cloud-sdk"
+#cask "google-cloud-sdk"
 
 # Data
 # cask "tableplus"
