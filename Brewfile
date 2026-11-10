@@ -50,3 +50,5 @@ cask "mark-text"
 # Not working at the moment - I suspect it is to do with payment options for the apple id
 #mas "Lightshot Screenshot", id: 526298438
 
+cask claude-code@latest
+
