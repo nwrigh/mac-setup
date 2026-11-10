@@ -30,7 +30,6 @@ cask "google-drive"
 cask "grammarly"
 
 # Text Editors & IDEs
-cask "sublime-text"
 cask "visual-studio-code"
 
 # Terminal(s)
@@ -38,7 +37,7 @@ cask "iterm2"
 brew "zsh"
 brew "zsh-syntax-highlighting"
 
-brew install --cask umputun/apps/agterm
+cask "umputun/apps/agterm"
 
 # For Oh-my-zsh sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
@@ -52,7 +51,7 @@ cask "google-cloud-sdk"
 # Images
 cask "gimp"
 
-brew install --cask mark-text
+cask "mark-text"
 
 # Apple Store apps
 # Not working at the moment - I suspect it is to do with payment options for the apple id
